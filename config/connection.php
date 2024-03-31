@@ -1,9 +1,9 @@
 <?php
 // Database credentials
 $host = 'localhost'; // Change this to your database host
-$dbname = 'your_database_name'; // Change this to your database name
-$username = 'your_username'; // Change this to your database username
-$password = 'your_password'; // Change this to your database password
+$dbname = 'project_management';
+$username = 'root'; 
+$password = ''; 
 
 try {
     // Creating a new PDO instance
@@ -17,10 +17,6 @@ try {
 
     // Optionally, set character encoding to UTF-8
     $pdo->exec("set names utf8");
-    
-    // Now you can perform database operations using $pdo object
-    // For example:
-    // $pdo->query("SELECT * FROM your_table");
 
     echo "Connected successfully";
 } catch (PDOException $e) {

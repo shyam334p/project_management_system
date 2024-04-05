@@ -15,10 +15,10 @@
                 <div class="login-container">
                     <h2>Choose Login</h2>
                     <div class="mb-3">
-                        <a href="admin_login.php" class="btn btn-primary w-100">Super Admin Login</a>
+                        <a href="admin/admin_login.php" class="btn btn-primary w-100">Super Admin Login</a>
                     </div>
                     <div class="mb-3">
-                        <a href="staff_login.php" class="btn btn-secondary w-100">Team Lead Login</a>
+                        <a href="staff/team_lead_login.php" class="btn btn-secondary w-100">Team Lead Login</a>
                     </div>
                 </div>
             </div>

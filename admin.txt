@@ -1,0 +1,4 @@
+Admin username and password
+
+admin = user@gmail.com
+        user123

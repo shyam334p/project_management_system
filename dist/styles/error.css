@@ -1,0 +1,12 @@
+
+/*css styling*/
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+  
+.form-control.is-invalid {
+    border-color: #dc3545; /* Bootstrap's invalid border color */
+}

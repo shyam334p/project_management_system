@@ -3,7 +3,7 @@
     $host = 'localhost'; // Change this to your database host
     $dbname = 'project_management';
     $username = 'root'; 
-    $password = ''; 
+    $password = 'root'; 
 
     try {
         // Creating a new PDO instance
